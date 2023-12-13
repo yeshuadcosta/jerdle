@@ -14,14 +14,14 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-class yerdle {
+class jerdle {
 
         private ArrayList<String> data = new ArrayList<String>();
         private String word;
         private String guess;
         private boolean flag;
 
-    public yerdle() {
+    public jerdle() {
         word = "";
         guess = "";
         flag = false;
@@ -897,7 +897,7 @@ class yerdle {
     }
     
     public static void main(String[] args) {
-        yerdle solve = new yerdle();
+        jerdle solve = new jerdle();
         try {
             solve.getWord();
             solve.display();
@@ -906,9 +906,3 @@ class yerdle {
         }
     }
 }
-
-/*
- * Program creaed by Yeshua Joseph D'Costa
- * To be continued
- * I will be back...
-*/
